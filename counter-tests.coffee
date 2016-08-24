@@ -1,3 +1,5 @@
+Tinytest = require('tinytest')
+
 Tinytest.add 'mongo-counter delete counters', (test) ->
   deleteCounters('_counters')
 Tinytest.add 'mongo-counter inc counters', (test) ->
